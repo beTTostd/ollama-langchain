@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+langchain = "*"
+langchain-community = "*"
+pypdf = "*"
+faiss-cpu = "*"
+langchain-chroma = "*"
+unstructured = "*"
+markdown = "*"
+elevenlabs = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.12"
